@@ -69,6 +69,10 @@
   letter-spacing: 4px;
 }
 
+.letter-spacing-10 {
+  letter-spacing: 10px;
+}
+
 .letter-spacing-24 {
   letter-spacing: 24px;
 }
@@ -81,10 +85,22 @@
   text-align: right;
 }
 
+.play-button:active {
+  filter: brightness(1.1);
+}
+
 @media only screen and (max-width:800px) {
   .right-align {
     text-align: center;
   }
+}
+
+.width-65 {
+  width: 65px;
+}
+
+.width-90 {
+  width: 90px;
 }
 
 .width-100 {
