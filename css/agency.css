@@ -53,8 +53,20 @@
   font-size: 20px;
 }
 
+.font-size-1-3rem {
+  font-size: 1.3rem;
+};
+
+.font-size-2rem {
+  font-size: 2rem;
+};
+
 .letter-spacing-3 {
   letter-spacing: 3px;
+}
+
+.letter-spacing-4 {
+  letter-spacing: 4px;
 }
 
 .letter-spacing-24 {
@@ -63,6 +75,28 @@
 
 .vertical-center {
   vertical-align: middle;
+}
+
+.right-align {
+  text-align: right;
+}
+
+@media only screen and (max-width:800px) {
+  .right-align {
+    text-align: center;
+  }
+}
+
+.width-100 {
+  width: 100px;
+}
+
+.light-green {
+  color: #8eb8a5;
+}
+
+.off-green {
+  color: #acb9b0;
 }
 
 body {
